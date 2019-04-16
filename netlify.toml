@@ -2,7 +2,7 @@
   publish = "public"
   command = "hugo"
 
-[build.environment]
-  HUGO_VERSION = "0.53"
-  HUGO_THEME = "meghna-hugo"
-  HUGO_BASEURL = "https://youthful-swartz-cc62eb.netlify.com/"
+[context.production.environment]
+HUGO_VERSION = "0.51"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
