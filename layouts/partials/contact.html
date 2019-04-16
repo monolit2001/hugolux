@@ -17,49 +17,7 @@
                 {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
                 {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
                 <div class="contact-details">
-                    {{ range .Site.Data.contact.contactDetails }}
-                    <div class="con-info clearfix">
-                        <i class="{{ .icon }}"></i>
-                        <span>{{ .info }}</span>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-
-            {{"<!-- Contact Form -->" | safeHTML}}
-            <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
-
-                    <input name="e-mail" type="text" id="e-mail" autocomplete="off">
-
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
-                    </div>
-
-                    <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
-                    </div>
-
-                    <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
-                    </div>
-
-                    <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
-                    </div>
-
-                    <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-                    </div>
-
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSessYVMHmvlXG8MafmJ71O2TjK2jJAk7d3NENzGN0Nj6uxZ2g/viewform?embedded=true" width="640" height="1150" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
                 </form>
             </div>
 
