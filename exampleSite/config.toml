@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Meghna"
+title = "Btraze Certistock"
 theme = "meghna-hugo"
 summaryLength = 10
 
@@ -53,8 +53,8 @@ home= "Home"
 logo = "images/logo.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
+description = "mobile marketing reinvented"
+author = "Certistock"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 custom_css = ["css/custom.css"]
@@ -62,9 +62,9 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
+    bgImage = "images/slider/hero-area2.png"
     icon = "tf-ion-play"
-    heading = "Experience the new reality"
+    heading = "mobile marketing reinvented"
     content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
     btn = true
     btnText="Explore Us"
@@ -74,9 +74,11 @@ custom_css = ["css/custom.css"]
     [params.cta]
     enable = true
     title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    content = "Btraze * the customer always comes first
+the mobile marketing reinvented personalized offers for priority customers Btraze *el cliente siempre es lo primero 
+ofertas personalizadas para clientesVip"
     btnURL = "#"
-    btnText = "Start a project with us"
+    btnText = "Btraze with us"
 
     # counter
     [params.counter]
